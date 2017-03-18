@@ -2,13 +2,6 @@
 
 ---
 
-**Finding Lane Lines on the Road**
-
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
-
-
 [//]: # (Image References)
 
 [image1]: ./writeup_images/solidWhiteCurve_hlines.jpg "Hough lines"
@@ -20,7 +13,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+###1. Description of pipeline
 
 The first 5 steps are the standard steps presented in the lectures. 
 I did not use color selection so that the pipeline would be agnostic to lane marker colors.
