@@ -24,13 +24,13 @@ I did not use color selection so that the pipeline would be agnostic to lane mar
 4. Mask out a triangular area of interest at the bootom half of the image
 5. Find Hough lines 
 
-At this point I split the region of interest to left and right halves, to ensure I detect lane markers on eother side.
-i.e. to avoid detecting 2 'line' on the same side due to potential edges due to shadws and curbs
-
-![alt text][image1]
+At this point I split the region of interest to left and right halves, to ensure I detect lane markers on either side.
+i.e. to avoid detecting 2 'lane markers' on the same side due to potential edges due to shadws and curbs
 
 6. Convert Hough lines to a binary image for use with morphing and contour recognition
-(I dod not end up using morphing since the pipeline did not show much improvement with it)
+(I did not end up using morphing since the pipeline did not show much improvement with it)
+
+![alt text][image1]
 
 7. Next I found contours on the Hough lines to detect lane marker segments
 ![alt text][image2]
